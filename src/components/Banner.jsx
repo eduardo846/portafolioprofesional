@@ -38,7 +38,7 @@ tick()
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className='align-items-center'>
+                <Row className='align-items-center p1'>
                     <Col xs={12} md={6} xl={7}>
                         <span className='tagline'>Welcome to my Portafolio</span>
                         <h1>{`Hi I'm Hector Ramirez`} <span className='wrap'>{text}</span></h1>
