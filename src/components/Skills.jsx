@@ -9,7 +9,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 
-const Skills = () => {
+export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -30,7 +30,7 @@ const Skills = () => {
     },
   };
   return (
-    <section className="skill" id="skills">
+    <section className="skill p1" id="skills" >
       <Container>
         <Row>
           <Col>
