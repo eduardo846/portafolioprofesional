@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import { Col, Container, Row } from 'react-bootstrap';
 import headerImg from "../assets/img/header-img.svg"
+import colorSharp from "../assets/img/color-Sharp.png"
 
 const Banner = () => {
     const [loopNum, setLoopNum] =useState(0)
@@ -38,7 +39,7 @@ tick()
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className='align-items-center p1'>
+                <Row className='align-items-center'>
                     <Col xs={12} md={6} xl={7}>
                         <span className='tagline'>Welcome to my Portafolio</span>
                         <h1>{`Hi I'm Hector Ramirez`} <span className='wrap'>{text}</span></h1>
@@ -50,6 +51,7 @@ tick()
                     </Col>
                 </Row>
             </Container>
+            <img className='background-image-left' src={colorSharp} alt="" />
         </section>
     );
 };
