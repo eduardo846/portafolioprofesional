@@ -4,6 +4,8 @@ import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter11.svg";
 import meter2 from "../assets/img/meter22.svg";
 import meter3 from "../assets/img/meter33.svg";
+import meter4 from "../assets/img/meter44.svg";
+import meter5 from "../assets/img/meter55.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -60,8 +62,16 @@ export const Skills = () => {
                   <h5>HTML</h5>
                 </div>
                 <div className="item">
+                  <img src={meter4} alt="Image" />
+                  <h5>Css</h5>
+                </div>
+                <div className="item">
+                  <img src={meter5} alt="Image" />
+                  <h5>Aws</h5>
+                </div>
+                <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Developer</h5>
+                  <h5>React</h5>
                 </div>
               </Carousel>
             </div>
