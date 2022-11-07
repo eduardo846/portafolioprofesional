@@ -1,15 +1,14 @@
 import React from "react";
-import {Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter11.svg";
-import meter2 from "../assets/img/meter22.svg";
-import meter3 from "../assets/img/meter33.svg";
-import meter4 from "../assets/img/meter44.svg";
-import meter5 from "../assets/img/meter55.svg";
+import meter1 from "../assets/img/react.png";
+import meter2 from "../assets/img/node.png";
+import meter3 from "../assets/img/html.png";
+import meter4 from "../assets/img/css.png";
+import meter5 from "../assets/img/aws.png";
 import colorSharp from "../assets/img/color-sharp.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
 
 export const Skills = () => {
   const responsive = {
@@ -32,7 +31,7 @@ export const Skills = () => {
     },
   };
   return (
-    <section className="skill" id="skills" >
+    <section className="skill" id="skills">
       <Container>
         <Row>
           <Col>
@@ -63,22 +62,17 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter4} alt="Image" />
-                  <h5>Css</h5>
+                  <h5>CSS</h5>
                 </div>
                 <div className="item">
                   <img src={meter5} alt="Image" />
-                  <h5>Aws</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>React</h5>
+                  <h5>AWS</h5>
                 </div>
               </Carousel>
             </div>
           </Col>
         </Row>
       </Container>
-      
     </section>
   );
 };
